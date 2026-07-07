@@ -70,8 +70,8 @@ nav .activo{
 
     min-height:80vh;
 
-    background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.55)),
-    url("https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=1400")
+    background:linear-gradient(rgba(0, 0, 0, 0.55),rgba(0,0,0,.55)),
+    url("!-- IMAGEN DE FONDO PENDIENTE --!") no-repeat
     center/cover;
 
     display:flex;
