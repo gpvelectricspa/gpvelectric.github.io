@@ -545,20 +545,7 @@ display:block;
 font-size:2.2rem;
 
 }
-
-.servicio-imagen{
-    text-align:center;
-}
-
-.imagen-ejemplo{
-    width:100%;
-    max-width:600px;
-    height:auto;
-    display:block;
-    margin:auto;
-    border-radius:10px;
-}
-
+   
 .bordetitulos{
     border: 2px solid #0d6efd;
     border-radius: 10px;
@@ -572,6 +559,34 @@ button:disabled{
     opacity: .7;
 
     cursor: not-allowed;
+
+}
+
+.servicio{
+
+    max-width:1000px;
+
+    margin:60px auto;
+
+    padding:0 20px;
+
+}
+
+.servicio-img{
+
+    display:block;
+
+    width:100%;
+
+    max-width:700px;
+
+    height:auto;
+
+    margin:30px auto;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 25px rgba(0,0,0,.15);
 
 }
 
