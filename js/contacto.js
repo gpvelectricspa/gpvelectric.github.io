@@ -1,6 +1,6 @@
 // Inicializa EmailJS
 emailjs.init({
-    publicKey: "TU_PUBLIC_KEY"
+    publicKey: "3LMz_uFDjwArCn6nH"
 });
 
 const formulario = document.getElementById("contactForm");
@@ -25,8 +25,8 @@ formulario.addEventListener("submit", function (e) {
 
     emailjs.send(
 
-        "TU_SERVICE_ID",
-        "TU_TEMPLATE_ID",
+        "service_97t2j8d",
+        "template_fzi7efo",
         datos
 
     )
