@@ -9,6 +9,12 @@ formulario.addEventListener("submit", function (e) {
 
     e.preventDefault();
 
+    // Botón del formulario
+    const boton = formulario.querySelector("button");
+
+    boton.disabled = true;
+    boton.textContent = "Enviando...";
+
     const datos = {
 
         nombre: document.getElementById("nombre").value,
@@ -38,6 +44,11 @@ formulario.addEventListener("submit", function (e) {
 
         formulario.reset();
 
+        //9 segundos
+        setTimeout(function () {
+            document.getElementById("resultado").innerHTML = "";
+        }, 9000);
+
     })
 
     .catch(function (error) {
@@ -46,6 +57,14 @@ formulario.addEventListener("submit", function (e) {
 
         document.getElementById("resultado").innerHTML =
         "<p style='color:red;'>❌ Ocurrió un error al enviar el mensaje.</p>";
+
+    })
+
+    .finally(function () {
+
+        // Reactiva el botón
+        boton.disabled = false;
+        boton.textContent = "Enviar mensaje";
 
     });
 
