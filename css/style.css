@@ -546,7 +546,11 @@ font-size:2.2rem;
 
 }
 
-.servicio-imagen img{
+.servicio-imagen{
+    text-align:center;
+}
+
+.imagen-ejemplo{
     width:100%;
     max-width:600px;
     height:auto;
